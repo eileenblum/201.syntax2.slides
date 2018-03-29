@@ -132,7 +132,7 @@ The latest <u>research on dieting warned</u> people about carcinogens in broccol
 # NP Trees
 
 .center[
-NP → (D)(Adj+)N(PP) <br>
+NP → (D)(Adj+)N(PP+) <br>
 PP → P NP
 ]
 
