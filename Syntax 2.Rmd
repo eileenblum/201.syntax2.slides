@@ -1,0 +1,163 @@
+---
+title: "Syntax 2"
+subtitle: "Week 11"
+author: "Eileen Blum"
+date: "Rutgers University </br> March 29, 2018"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["https://www.jvcasillas.com/ru_xaringan/css/rutgers.css", "https://www.jvcasillas.com/ru_xaringan/css/rutgers-fonts.css"]
+    nature:
+      beforeInit: "https://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tikzDevice)
+```
+
+# Business
+
+- Homework 4 not yet graded.
+
+- Homework 5 due **Monday**
+
+---
+
+# Parts of Speech
+
+Nootka (spoken in British Columbia)
+.pull-left[ (a) <br>
+
+Nootka: |Mamuk  |-ma  |quʔas |-ʔi
+--------|-------|-----|------|---
+Gloss:  |working|PRES |man   |DEF
+Transl.:|*The man is working* 
+]
+
+.pull-right[ (b) <br>
+
+Nootka: |Quʔas |-ma   |mamuk  |-ʔi
+--------|------|------|-------|----
+Gloss:  |man   |PRES |working |DEF
+Transl.:|*The working one is a man*
+]
+
+- DEF stands for definite, which functions like the English determiner *the*
+
+--
+
+- In sentence (a) is *quʔas* functioning as a verb or a noun?
+
+--
+
+  - What about *mamuk*?
+  
+--
+
+- In sentence (b) is *quʔas* functioning as a verb or a noun?
+
+--
+
+  - And *mamuk*?
+  
+--
+
+- What criteria did we use to distinguish the parts of speech?
+
+---
+
+# Constituency Tests
+
+.center[The young child walked *<u>to the park</u>*]
+
+--
+
+- Replacement: 
+
+--
+
+  The young child walked *<u>there</u>*
+
+--
+
+- Sentence fragment:
+
+--
+
+  Where did the young child walk? *<u>to the park</u>*
+
+--
+
+- Clefting
+
+--
+
+  It was *<u>to the park</u>* that the young child walked.
+
+--
+
+### Why is *<u>young child</u>* not a constituent in this sentence?
+
+---
+
+# Constituency Tests
+
+You have 10 minutes to determine whether or not the underlined part of your group's sentence is a constituent. Each group will then explain their reasoning to the class.
+
+.pull-left[### Group 1 <br>
+John <u>saw his</u> mother on Tuesday. <br>
+
+### Group 2 <br>
+Susan <u>sings at weddings</u>. <br>
+
+### Group 3 <br>
+John paid <u>a dollar for</u> a head of lettuce. <br>
+]
+
+.pull-right[
+### Group 4 <br>
+The kangaroo hopped <u>over the truck</u>. <br>
+
+### Group 5 <br>
+The latest <u>research on dieting warned</u> people about carcinogens in broccoli.
+]
+
+---
+
+# NP Trees
+
+.center[
+NP → (D)(Adj+)N(PP) <br>
+PP → P NP
+]
+
+--
+
+- the woman with the binoculars <br>
+
+--
+
+## Practice Phrases
+
+In your group, draw the tree for one of the following NPs. Each group will then draw their tree on the board.
+
+Group 1: the young new player <br>
+Group 2: the last piece of chocolate cake (assume that chocolate is an Adj) <br>
+Group 3: the dashing man from Chatenooga with the huge mustache <br>
+Group 4: the girl with the red shirt from Macy's
+
+---
+
+# Review
+
+- Today we practiced 
+  - identifying parts of speech, 
+  - testing for constituency, and
+  - drawing syntax trees from PSRs
+- Next week we will expand our PSRs to encompass a larger variety of SAE syntactic structures
+- I will return HW 4 to you asap. Please feel free to email me if you have questions.
